@@ -1,0 +1,34 @@
+@font-face {
+    font-family: 'font';
+    src: url(../font/BalsamiqSans-Bold.ttf);
+
+  }
+
+header{
+    position: relative;
+	width: 100%;
+	height: 15px;
+}  
+
+.taskbar {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 12;
+  }
+
+.taskbar a {
+    float: left;
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+.taskbar a:hover {
+    background: rgb(179, 70, 169);
+    color: rgb(255, 255, 255);
+  }

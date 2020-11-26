@@ -1,0 +1,25 @@
+/* Make sure that padding behaves as expected */
+* {box-sizing:border-box}
+
+/* Container for skill bars */
+.container {
+  width: 100%; /* Full width */
+  background-color: #ddd; /* Grey background */
+}
+
+.skills {
+  text-align: right; /* Right-align text */
+  padding-top: 10px; /* Add top padding */
+  padding-bottom: 10px; /* Add bottom padding */
+  color: white; /* White text color */
+}
+
+.powerpoint {width: 90%; background-color: #f44336;}
+.photoshop {width: 80%; background-color: #2196F3;} 
+.ux-ui {width: 65%; background-color: #ee36f4;}
+.java {width: 60%; background-color: #808080;} 
+.c {width: 55%; background-color: #db3c3c;} 
+.html {width: 50%; background-color: #42e072;}
+.css {width: 45%; background-color: #eca059;}  
+.arduino {width: 35%; background-color: #18aaff;}
+.docker {width: 10%; background-color: #4a57c5;}  

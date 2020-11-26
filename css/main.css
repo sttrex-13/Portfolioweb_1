@@ -1,0 +1,15 @@
+@font-face {
+    font-family: 'font';
+    src: url(../font/BalsamiqSans-Bold.ttf);
+
+  }
+
+html{
+    background: #282828;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
